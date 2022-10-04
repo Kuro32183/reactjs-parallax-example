@@ -1,9 +1,3 @@
-# Parallax Video
-
-This is a collection of examples for the YouTube Parallax video.
-
-[Demo](https://townofdon.github.io/yt-react-parallax/)
-
 ## Getting Started
 
 To run this on your local machine, do the following:
@@ -115,4 +109,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # reacjs-parallax-example
