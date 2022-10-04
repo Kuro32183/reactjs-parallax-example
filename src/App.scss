@@ -1,0 +1,58 @@
+body,
+html {
+  accent-color: #ff0a7a;
+  accent-color: var(--accent-color);
+}
+
+.App {
+  text-align: center;
+}
+
+nav.navigation {
+  z-index: 30;
+  position: relative;
+
+  ul {
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    color: #ddd;
+
+    &.active,
+    &:active {
+      color: var(--accent-color);
+    }
+
+    &:hover {
+      background-color: var(--accent-color);
+      color: black;
+    }
+  }
+}
+
+.bottom-nav-link {
+  display: block;
+  width: 100%;
+  padding: 30px 60px;
+  background: cyan;
+  color: black;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background-color: rgb(2, 0, 32);
+    color: cyan;
+  }
+}
+
+.image-text {
+  text-shadow: 2px 2px 5px #00000026;
+}
